@@ -19,3 +19,14 @@ setMethod (
     e1@slot1 + e2@slot2
   }
 )
+
+#' @aliases as.character,MyClass-method
+#' @rdname MyClass-class
+#' @export
+setMethod (
+  f = 'as.character', 
+  signature = 'MyClass',
+  definition = function (x, ...) {
+    as.character(x)
+  }
+)

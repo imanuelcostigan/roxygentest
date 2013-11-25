@@ -1,2 +1,3 @@
 exportClasses(MyClass)
 exportMethods("+")
+exportMethods(as.character)
