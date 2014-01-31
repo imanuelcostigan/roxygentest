@@ -1,3 +1,1 @@
-exportClasses(MyClass)
-exportMethods("+")
-exportMethods(as.character)
+exportClasses(Blob)
