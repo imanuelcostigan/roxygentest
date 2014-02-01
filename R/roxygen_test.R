@@ -8,6 +8,7 @@ draw.Blob <- function (type = 'small')
 #'
 #' Blah blah blah
 #' 
+#' @slot type a character vector
 #' @examples
 #' Blob(type = 'small')
 #' @export
