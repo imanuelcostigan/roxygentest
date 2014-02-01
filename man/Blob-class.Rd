@@ -9,4 +9,7 @@ Blah blah blah
 \itemize{
 \item \code{draw(type = "small")}: Something about blobs
 }}
+\examples{
+Blob(type = 'small')
+}
 

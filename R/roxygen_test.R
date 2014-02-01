@@ -8,6 +8,8 @@ draw.Blob <- function (type = 'small')
 #'
 #' Blah blah blah
 #' 
+#' @examples
+#' Blob(type = 'small')
 #' @export
 Blob <- setRefClass (
   Class = "Blob", 
