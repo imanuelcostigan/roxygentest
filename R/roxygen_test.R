@@ -17,3 +17,14 @@ Blob <- setRefClass (
   fields = list(type = 'character'),
   methods = list(draw = draw.Blob)
 )
+
+#' Data set
+#'
+#' A data set describing data The variables are as follows:
+#' \itemize{
+#'   \item variable1 blah
+#'   \item variable2 blah
+#' }
+#' @name attitude
+#' @export
+NULL
