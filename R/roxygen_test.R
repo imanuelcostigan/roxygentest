@@ -10,7 +10,7 @@ draw.Blob <- function (type = 'small')
 #' 
 #' @examples
 #' Blob(type = 'small')
-#' @export
+#' @export Blob
 Blob <- setRefClass (
   Class = "Blob", 
   fields = list(type = 'character'),
